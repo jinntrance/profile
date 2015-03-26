@@ -9,7 +9,6 @@ ga('require', 'linkid', 'linkid.js');
 ga('send', 'pageview');
 
 //<!-- Asynchronous Baidu Analytics snippet -->
-<script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
