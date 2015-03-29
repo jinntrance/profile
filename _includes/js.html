@@ -13,11 +13,11 @@
     {% endif %}
 
     <!-- Custom Theme JavaScript -->
-    <script src="{{ "/js/grayscale.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/grayscale.js" | prepend: site.baseurl }}" ></script>
 
     <!-- Google/Baidu Analytics-->
     <script type="text/javascript" >
         if(0<= window.location.origin.indexOf('{{ site.url }}')) {
-            document.write('<script type="text/javascript" src="{{site.baseurl}}/js/analytics.js"><\/script>')
+            document.write('<script type="text/javascript" src="{{site.baseurl}}/js/analytics.js" async="async"><\/script>')
         }
     </script>
