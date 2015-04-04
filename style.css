@@ -6,3 +6,8 @@ layout: null
 #goog-wm input {
   color: black;
 }
+div#bdcs {
+  margin-left: auto;
+  margin-right: auto;
+  width: 248px;
+}
