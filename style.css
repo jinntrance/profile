@@ -3,11 +3,12 @@ layout: null
 ---
 {% include css/bootstrap.min.css %}
 {% include css/grayscale.css %}
-#goog-wm input {
+#goog-wm input, #bdcs input {
   color: black;
 }
-div#bdcs {
+#bdcs {
   margin-left: auto;
   margin-right: auto;
   width: 248px;
+  display: inline;
 }
