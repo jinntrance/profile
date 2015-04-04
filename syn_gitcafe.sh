@@ -2,5 +2,7 @@
 #git remote add  gc  git@gitcafe.com:jinntrance/jinntrance.git
 git pull 
 git push
-git push gc master:gitcafe-pages
+git checkout gitcafe-pages
+git merge master
+git push gc 
 
