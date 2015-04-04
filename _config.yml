@@ -10,7 +10,7 @@ color:
   links: '#219ab3'
 
 # wheather enable Google resources
-google: false
+google: true
 
 # Footer settings
 footer: Joseph
