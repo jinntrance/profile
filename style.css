@@ -3,12 +3,24 @@ layout: null
 ---
 {% include css/bootstrap.min.css %}
 {% include css/grayscale.css %}
+
 #goog-wm input, #bdcs input {
   color: black;
 }
+
 #bdcs {
   margin-left: auto;
   margin-right: auto;
   width: 248px;
   display: inline;
+}
+
+img.round {
+  -webkit-border-radius: 50%;
+  border-radius: 50%
+}
+
+img.avatar {
+  max-height: 25%;;
+  max-width: 25%;;
 }
