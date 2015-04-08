@@ -1,7 +1,8 @@
 ---
 --- 
-
+@import "bootstrap";
 @import "grayscale";
+@import "font-awesome/font-awesome";
 
 #goog-wm input, #bdcs input {
   color: black;
@@ -20,6 +21,5 @@ img.round {
 }
 
 img.avatar {
-  max-height: 25%;;
   max-width: 25%;;
 }
