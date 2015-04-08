@@ -5,6 +5,7 @@ url: josephjctang.com
 description: "This is the homepage of Joseph Jin-Chuan Tang."
 
 # Color settings (hex-codes without the leading hash-tag)
+# change the setting in _sass/grayscale
 color:
   primary-dark: Black
   links: '#219ab3'
