@@ -1,8 +1,8 @@
 ---
-layout: null
----
-{% include css/bootstrap.min.css %}
-{% include css/grayscale.css %}
+--- 
+
+@import "bootstrap";
+@import "grayscale";
 
 #goog-wm input, #bdcs input {
   color: black;
