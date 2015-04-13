@@ -4,6 +4,19 @@
 @import "grayscale";
 @import "font-awesome/font-awesome";
 
+@media (max-width: 600px){
+ .intro {
+  background: url(/img/intro-bg-600.jpg) no-repeat bottom center scroll;
+ }
+ .download-section {
+  background: url(/img/downloads-bg-600.jpg) no-repeat bottom center scroll;
+ }
+ .avatar {
+   background: url(/img/avatar150.jpg) no-repeat;
+ }
+
+}
+
 #goog-wm input, #bdcs input {
   color: black;
 }
@@ -15,15 +28,16 @@
   display: inline;
 }
 
-img.round {
+.round {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
   behavior: url(js/PIE/PIE.htc);
 }
 
-img.avatar {
-  max-width: 25%;;
+.avatar {
+  max-width: 33%;
+  background: url(/img/avatar460.jpg) no-repeat;
 }
 
 h1 {
