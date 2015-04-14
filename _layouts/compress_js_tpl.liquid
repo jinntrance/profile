@@ -1,0 +1,38 @@
+---
+---
+
+{% capture _content %}
+ {{ content | split: " " | join: " "}}
+{% endcapture %}
+
+{% if site.compress_js.comments == "all" %}
+  {% assign _comments = [["/* "," */"]] %}
+{% else %}
+  {% assign _comments = site.compress_js.comments %}
+{% endif %}
+{% for _element in _comments %}
+{% if _element.size == 2 %}
+  {% assign _comment_befores = _content | split: _element.first %}
+  {% for _comment_before in _comment_befores %}
+    {% assign _comment_content = _comment_before | split: _element.last | first %}
+    {% if _comment_content %}
+      {% capture _comment %}{{ _element.first }}{{ _comment_content }}{{ _element.last }}{% endcapture %}
+      {% assign _content = _content | remove: _comment %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% endfor %}
+
+{% if site.compress_js.clippings == "all" %}
+  {% assign _clippings = "{ } [ ] ( ) > < = + - / * : ; & | ! $" | split: " " %}
+{% else %}
+  {% assign _clippings = site.compress_js.clippings %}
+{% endif %}
+{% for _element in _clippings %}
+  {% assign _edges = " e`e`e `e`e\n`e" | replace: "e", _element | split: "`" %}
+  {% assign _content = _content | replace: _edges[0], _edges[1] | replace: _edges[2], _edges[3] |replace: _edges[4], _edges[5] %}
+{% endfor %}
+
+{% assign _content = _content | replace: ";}","}" | replace: "};","}" %}
+
+{{_content }}
