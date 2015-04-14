@@ -1,21 +1,24 @@
- <!-- jQuery Version 1.11.0 -->
-    <script src="{{ "/js/jquery.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript">
+      var cb = function() {
+        var l = document.createElement('link'); l.rel = 'stylesheet';
+        l.href = '{{ "/assets/css/vendor.css" | prepend: site.baseurl }}'; 
+        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(cb);
+      else window.addEventListener('load', cb);
+    </script> 
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
 
     {% if site.google == true %}
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
     {% endif %}
 
-    <!-- Custom Theme JavaScript -->
-    <script src="{{ "/js/grayscale.js" | prepend: site.baseurl }}" ></script>
+    <script src="{{ "/assets/js/all.js" | prepend: site.baseurl }}" ></script>
 
-    <!-- Google/Baidu Analytics-->
+    <!-- Google/Baidu Analytics -->
     <script type="text/javascript" >
         if(0<= window.location.origin.indexOf('{{ site.url }}')) {
             document.write('<script type="text/javascript" src="{{site.baseurl}}/js/analytics.js" async="async"><\/script>')
