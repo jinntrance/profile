@@ -7,16 +7,7 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom CSS & Bootstrap Core CSS & FontAwesome font - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <!--
-      <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" lazyload="true">
-    -->
-    <style type="text/css"> 
-    {% capture include_to_scssify %}
-      {% include_relative _sass/_grayscale.scss %}
-      {% include_relative /assets/css/custom.css %}
-    {% endcapture %}
-    {{ include_to_scssify | scssify }}
-    </style>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" lazyload="true">
     {% if site.google == true %}
     <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
