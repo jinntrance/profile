@@ -6,10 +6,6 @@
  .download-section {
   background: url(/img/downloads-bg-600.jpg) no-repeat bottom center scroll;
  }
- .avatar {
-   background: url(/img/avatar150.jpg) no-repeat;
- }
-
 }
 
 #goog-wm input, #bdcs input {
@@ -32,7 +28,6 @@
 
 .avatar {
   max-width: 33%;
-  background: url(/img/avatar460.jpg) no-repeat;
 }
 
 h1 {
