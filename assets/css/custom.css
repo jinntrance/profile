@@ -27,7 +27,7 @@
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  behavior: url(js/PIE/PIE.htc);
+  behavior: url(/assets/js/PIE/PIE.htc);
 }
 
 .avatar {
