@@ -28,6 +28,8 @@ social:
     url: http://www.douban.com/people/jinntrance/
   - title: google-plus
     url: https://google.com/+JosephJinChuanT%C3%A1ng
+  - title: blog
+    url: /blog/
     
 # Build settings
 markdown: redcarpet
