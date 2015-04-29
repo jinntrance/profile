@@ -33,3 +33,11 @@
 h1 {
   font-family: "Domestic Manners","URW Chancery L","Brush Script MT",Zapfino,"Apple Chancery","Bradley Hand ITC","Monotype Corsiva","Comic Sans MS",cursive;
 }
+
+.fa-douban:before {
+  content: "\f02d";
+}
+
+.fa-blog:before {
+  content: "\f086";
+}
