@@ -1,5 +1,5 @@
 #!/bin/bash 
-#git remote add  gc  git@gitcafe.com:jinntrance/jinntrance.git
+#git remote add  gc  git@gitcafe.com:jinntrance/profile.git
 git pull 
 git push
 git checkout gitcafe-pages
