@@ -13,6 +13,7 @@ color:
 
 # wheather enable Google resources
 google: false
+baidu_push: "http://data.zz.baidu.com/urls?site=josephjctang.com&token=q75fN10vbLmfLVFg"
 
 # Footer settings
 footer: Joseph
