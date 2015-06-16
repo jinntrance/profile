@@ -32,7 +32,20 @@ social:
     url: https://google.com/+JosephJinChuanT%C3%A1ng
   - title: blog
     url: http://blog.josephjctang.com/
-    
+
+projects:
+  - title: douban-android
+    desc: "Android client for book.douban.com"
+  - title: douban-scala
+    desc: "Scala SDK for http://www.douban.com "
+  - title: pomodoit
+    desc: "sync the tasks on http://doit.im to http://pomotodo.com"
+  - title: douban-mashuper
+    desc: "To check whether a book is in some library"
+  - title: go-pool
+    url: https://github.com/jinntrance/pool
+    desc: "A pool Implementation for golang"
+                
 # Build settings
 markdown: redcarpet
 permalink: pretty

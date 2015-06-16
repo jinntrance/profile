@@ -4,8 +4,14 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Projects</h2>
-                    <p>You can have a look at my projects hosted on GitHub.</p>
-                    <p><a href="http://github.com/jinntrance/" class="btn btn-default btn-lg">Visit His GitHub</a></p>
+                    <p>You can have a look at my projects hosted on <a href="http://github.com/jinntrance/" >GitHub</a>, or visit the links below.</p>
+                    <p>
+                    <ul class="list-inline banner-social-buttons">
+                      {% for p in site.projects %}
+                      <li><a href="{%if p.url %}{{p.url}}{%else%}http://josephjctang.com/{{p.title}}/{%endif%}" class="btn btn-default btn-lg" title="{{p.desc}}"><span class="network-name">{{p.title}}</span></a></li>
+                      {% endfor %}
+                    </ul>
+                    </p>
                 </div>
             </div>
         </div>
