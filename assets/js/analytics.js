@@ -8,8 +8,10 @@ var _hmt = _hmt || [];
 })();
 
 /* <!-- Aysnchronous CNZZ Analytics  -->  */
-var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
-document.write(unescape("%3Cspan id='cnzz_stat_icon_1256833726'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1256833726' type='text/javascript'%3E%3C/script%3E"));
+(function() {
+  var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+  document.write(unescape("%3Cspan id='cnzz_stat_icon_1256833726'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1256833726' type='text/javascript'%3E%3C/script%3E"));
+})();
 
 /* <!-- Asynchronous Google Analytics snippet --> */
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
