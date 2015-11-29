@@ -2,6 +2,7 @@
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
+  hm.async=1;
   hm.src = "//hm.baidu.com/hm.js?11224c4b3c0923fa6de6e431325fe387";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
@@ -12,6 +13,14 @@ var _hmt = _hmt || [];
   var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
   document.write(unescape("%3Cspan id='cnzz_stat_icon_1256833726'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1256833726' type='text/javascript'%3E%3C/script%3E"));
 })();
+(function(document) {
+  /* <!-- Aysnchronous CNZZ Analytics  -->  */
+  var hm = document.createElement("script");
+  hm.async=1;
+  hm.src = "//s95.cnzz.com/z_stat.php?id=1256833726&web_id=1256833726";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})(document);
 
 /* <!-- Asynchronous Google Analytics snippet --> */
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
