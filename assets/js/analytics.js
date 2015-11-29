@@ -9,17 +9,13 @@ var _hmt = _hmt || [];
 })();
 
 /* <!-- Aysnchronous CNZZ Analytics  -->  */
-(function() {
-  var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
-  document.write(unescape("%3Cspan id='cnzz_stat_icon_1256833726'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1256833726' type='text/javascript'%3E%3C/script%3E"));
-})();
 (function(document) {
   /* <!-- Aysnchronous CNZZ Analytics  -->  */
-  var hm = document.createElement("script");
-  hm.async=1;
-  hm.src = "//s95.cnzz.com/z_stat.php?id=1256833726&web_id=1256833726";
+  var za = document.createElement("script");
+  za.async=1;
+  za.src = "//s95.cnzz.com/z_stat.php?id=1256833726&web_id=1256833726";
   var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
+  s.parentNode.insertBefore(za, s);
 })(document);
 
 /* <!-- Asynchronous Google Analytics snippet --> */
