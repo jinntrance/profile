@@ -1,5 +1,5 @@
 #!/bin/bash 
-git remote add  coding  git@coding.com:jinntrance/jinntrance.git
+#git remote add  coding  git@coding.com:jinntrance/jinntrance.git
 #git remote add profile git@github.com:jinntrance/profile.git
 git pull 
 git push
