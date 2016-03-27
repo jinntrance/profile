@@ -46,11 +46,11 @@ projects:
   - title: douban-mashuper
     desc: "To check whether a book is in some library"
   - title: go-pool
-    url: https://github.com/jinntrance/pool
-    desc: "A pool Implementation for golang"
+    url: http://josephjctang.com/pool/
+    desc: "A pool implementation for GoLang"
                 
 # Build settings
-markdown: redcarpet
+markdown: kramdown 
 permalink: pretty
 sass:
   style: compressed
