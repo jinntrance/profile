@@ -5,3 +5,5 @@
 {% include_relative bootstrap.min.js %}
 {% include_relative grayscale.min.js %}
 
+$('a').attr('target','_blank');
+
