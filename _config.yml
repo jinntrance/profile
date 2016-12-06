@@ -50,12 +50,11 @@ projects:
     desc: "A pool implementation for GoLang"
                 
 # Build settings
+highlighter: rouge
 markdown: kramdown 
 permalink: pretty
 sass:
   style: compressed
-redcarpet:
-    extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
 include: [".htaccess"]
 
