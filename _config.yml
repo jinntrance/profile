@@ -50,7 +50,6 @@ projects:
     desc: "A pool implementation for GoLang"
                 
 # Build settings
-highlighter: rouge
 markdown: kramdown 
 permalink: pretty
 sass:
