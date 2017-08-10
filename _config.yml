@@ -5,6 +5,9 @@ url: http://josephjctang.com
 apex_domain: josephjctang.com
 description: "This is the homepage of Joseph Jin-Chuan Tang."
 
+hosted_by: GitHub Pages
+hosted_by_domain: pages.github.com
+
 # Color settings (hex-codes without the leading hash-tag)
 # change the setting in _sass/grayscale
 color:
